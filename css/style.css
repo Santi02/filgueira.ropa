@@ -78,13 +78,16 @@ body {
 
 .navegacion-principal {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 7rem;
+  margin-right: 7rem;
+
 }
 
 @media (max-width: 768px) {
   .navegacion-principal {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
   }
 }
