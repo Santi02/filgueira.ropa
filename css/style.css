@@ -94,12 +94,7 @@ body {
   }
 }
 
-/*.navegacion-principal {
- display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 15rem; 
-}*/
+
 
 .navegacion-principal a {
   display: block;
@@ -160,12 +155,7 @@ body {
     font-size: 80%;
 }
 
-/*.h2{
-  justify-content: center;
-  text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
-}*/
+
 .cuenta{
   text-align: center;
   font-weight: 500;
@@ -189,20 +179,43 @@ body {
   /*padding: 2rem;*/
   border-radius: 1rem;
 }
+.form-control{
+  width: 90%;
+  border: none;
+  margin-left: 1rem;
+  
+}
 
 .form-label{
   font-size: 1.5rem;
+  margin-left: 2rem;
 }
 .form-text{
   font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
 }
 .form-check-label{
   font-size: 1.5rem;
+  margin: 1rem;
 }
-.btn btn-primary{
-  justify-content: center;
-  padding: 70rem;
+.form-check-input[type=checkbox] {
+  margin-left: 1rem;
+  }
+.form-check-input{
+  padding-left: 0.5rem;
 }
+.form-check{
+  padding-left: 1rem;
+}
+.btn /*btn-primary*/{
+  margin: 2rem;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  padding: 0.8rem;
+}
+
 
     /*Nosotros*/
 
@@ -218,16 +231,7 @@ body {
     margin-bottom: 5rem;
 }
 
-/*@media (max-width: 768px) {
-    .nosotros{
-      display: grid;
-    grid-template-columns:repeat(2, auto); ;
-    padding: 3rem;
-    justify-content: center;
-    text-align: center;
-        
-    }
-}*/
+
 
 @media (max-width:768px ) {
     .nosotros{
