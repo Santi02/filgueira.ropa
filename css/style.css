@@ -22,7 +22,7 @@ img.logo{
   width: 15%;
 }
 .encabezado{
-  padding-bottom: 20rem;
+  padding-bottom: 40rem;
   background-image: url(fondo1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,12 +30,13 @@ img.logo{
 }
 
 @media (max-width: 768px) {
-      .encabezado{
+    .encabezado{
+      background-size: cover;
       padding-bottom: 20rem;
-      /*background-image: url(fondo1.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;*/
+      background-image: url(fondo1.jpg);
+      background-size: cover;
       position: relative;
+   
 }
 }
 
