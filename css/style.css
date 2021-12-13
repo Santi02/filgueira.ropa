@@ -56,8 +56,17 @@ img.logo{
 }
 }
 
-img.logo__2{
-height: 80%;
+/*img.logo__2{
+  height: 80%;
+}*/
+
+@media (max-width: 768px){
+  img.logo__2{
+    display: block;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 body {
@@ -134,7 +143,8 @@ body {
 
 @media (max-width: 768px) {
     .grid{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+
     }
 }
 
@@ -152,7 +162,7 @@ body {
     margin: 1rem 0;
     text-align: center;
     line-height: 1;
-    font-size: 80%;
+    font-size: 70%;
 }
 
 
@@ -173,15 +183,16 @@ body {
 .formBT{
   background-color: var(--azulClaro);
   width: min(60rem, 100%);
-    margin: 0 auto;
-    margin-top: 6rem;
-    margin-bottom: 4rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
   /*padding: 2rem;*/
   border-radius: 1rem;
 }
 .form-control{
   width: 90%;
   border: none;
+  font-size: 50%;
   margin-left: 1rem;
   
 }
@@ -212,6 +223,7 @@ body {
   margin: 2rem;
   text-decoration: none;
   text-align: center;
+  font-size: 40%;
   border: none;
   padding: 0.8rem;
 }
@@ -245,6 +257,7 @@ body {
 @media (max-width:768px ) {
     .texto-nosotros{
       font-size: 90%;
+      margin-top: 2rem;
     }
   }
   
@@ -264,8 +277,8 @@ margin: 3rem 0;
 
 .nosotros__end{
 
-      text-align:center;
-      font-family: "Krub", sans-serif;
+    text-align:center;
+    font-family: "Krub", sans-serif;
 }
 
 
@@ -322,14 +335,22 @@ margin: 3rem 0;
     /*Contacto*/
 
 .form{
-   background-color: var(--rojo);
+  background-color: var(--rojo);
   width: min(60rem, 100%);
-    margin: 0 auto;
-    margin-top: 6rem;
-    margin-bottom: 4rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
   /*padding: 2rem;*/
   border-radius: 1rem;
 }
+
+@media (max-width: 768px){
+  .form{
+   box-sizing: border-box;
+  }
+
+}
+
 .formulario fieldset {
   border: none;
   background-image: linear-gradient(to right,var(--rojo) 0%, var(--azulOscuro) 100%);
