@@ -9,6 +9,8 @@
   --rojoClaro: #FFDCDC;
 }
 
+/**{margin: 0; padding: 0;}
+*/
 
 html {
   font-size: 62.5%;
@@ -332,6 +334,12 @@ margin: 3rem 0;
   display: block;
   text-align: center;
   font-size: ;
+}
+.atencion{
+  color: var(--rojo);
+}
+.atencionDia{
+  font-size: 2rem;
 }
     /*Contacto*/
 
