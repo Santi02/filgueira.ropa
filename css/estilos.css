@@ -1,0 +1,244 @@
+/* line 1, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 5, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+img.logo {
+  display: block;
+  width: 15%;
+}
+
+/* line 13, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.encabezado {
+  padding-bottom: 42rem;
+  background-image: url(fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  /* line 13, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+  .encabezado {
+    background-size: cover;
+    padding-bottom: 20rem;
+    background-image: url(fondo1.jpg);
+    background-size: cover;
+    position: relative;
+  }
+}
+
+/* line 27, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #02255B;
+  padding-top: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  /* line 33, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+  .header .header {
+    display: flex;
+    justify-content: center;
+    background-color: #02255B;
+    padding-top: 0.9rem;
+  }
+  /* line 38, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+  .header .header img.logo__2 {
+    display: block;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 47, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+body {
+  font-size: 30px;
+  font-family: "Krub", sans-serif;
+  /*1rem=10px*/
+  background-image: linear-gradient(to top, #dfe9f3 0%, #ffffff 100%);
+}
+
+/* line 52, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+body .nav-bg {
+  background-color: #757575;
+}
+
+@media (max-width: 768px) {
+  /* line 55, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+  body .nav-bg .nav-bg {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* line 62, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.navegacion-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+/* line 68, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.navegacion-principal a {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1.5rem;
+}
+
+/* line 76, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.navegacion-principal a:hover {
+  background-color: #dfe9f3;
+  color: #031042;
+}
+
+@media (max-width: 768px) {
+  /* line 83, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+  .navegacion-principal {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* line 89, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.productos {
+  background-color: #031042;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 95, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.grid {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8rem;
+  margin: 4rem;
+}
+
+@media (max-width: 768px) {
+  /* line 105, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* line 110, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.producto {
+  background-image: linear-gradient(to top, #BD0519 0%, #02255B 100%);
+  padding: 1rem;
+}
+
+/* line 114, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.producto__nombre
+.producto__precio {
+  margin: 1rem 0;
+  text-align: center;
+  line-height: 1;
+  font-size: 70%;
+}
+
+/* line 121, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.cuenta {
+  text-align: center;
+  font-weight: 500;
+  font-size: 50%;
+}
+
+/* line 126, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.creaCuenta {
+  background-color: #FFDCDC;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+/* line 133, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.form-control {
+  width: 90%;
+  border: none;
+  font-size: 50%;
+  margin-left: 1rem;
+}
+
+/* line 139, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.form-label {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+/* line 143, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.form-text {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* line 148, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.form-check-label {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+/* line 152, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.form-check-input[type=checkbox] {
+  margin-left: 1rem;
+}
+
+/* line 155, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.form-check-input {
+  padding-left: 0.5rem;
+}
+
+/* line 158, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.form-check {
+  padding-left: 1rem;
+}
+
+/* line 161, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.btn {
+  margin: 2rem;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40%;
+  border: none;
+  padding: 0.8rem;
+}
+
+/* line 169, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+.formBT {
+  background-color: #C5E4FF;
+  width: 45rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+  /* line 177, ../../../../../Desktop/Coder House/Entrega 1/Primer codigo/Pagina de ropa. Filgueira/Pagina de ropa. Filgueira 1/Ropa. filgueira 6-12-2021/Pg.Ropa-Filgueira/scss/_main.scss */
+  .formBT .formBT {
+    width: 40rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
