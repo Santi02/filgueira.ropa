@@ -88,9 +88,7 @@ body {
 
 .productos{
   background-color:$oscuro;
-  padding: 1rem;
-  justify-content: center;
-  align-items: center;
+  @include mx1;
 }
 .grid{
   display: grid ;
@@ -180,6 +178,180 @@ body {
     }
     }
 }
+
+.nosotros{
+    display: grid;
+    grid-template-columns:repeat(2, auto); ;
+    padding: 3rem;
+    column-gap: 3rem;
+    /*paddin-bottom: 5rem;*/
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    }
+      @media (max-width: $mq) {
+      .nosotros{
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 2rem;
+    text-align: center;
+
+}
+}
+.texto-nosotros{
+  padding: 3rem;
+}
+
+.logo__2{
+margin: 3rem 0;
+}
+.pq__nosotros{
+  margin: 5rem;
+  font-size: 300%;
+}
+
+.nosotros__end{
+  text-align:center;
+  font-family: "Krub", sans-serif;
+}
+.textoFinalNosotros{
+   display: grid;
+   grid-template-columns:  repeat(3, 1fr);
+   gap: 2rem;
+   justify-content: center;
+   text-align: center;
+   font-size: 200%;
+   margin: 5rem;
+   column-gap: 5rem;
+}
+.pq__nosotros{
+  color: var(--azulOscuro);
+}
+
+@media (max-width: $mq) {
+    .textoFinalNosotros{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.carrousel{
+  justify-content: center;
+ width: 340px; 
+ height: 160px; 
+}
+
+.size--nosotros{
+  font-size: 80%;
+}
+
+.mapa{
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+.direccion{
+  text-align: center;
+  margin-top: 5rem;
+  /*margin: 2rem;*/
+  font-size: 85%;
+}
+
+.horarios{
+  display: block;
+  text-align: center;
+}
+
+.atencionDia{
+  font-size: 2rem;
+}
+
+.atencion{
+  color: var(--rojo);
+}
+
+
+.form{
+  background-color: var(--rojo);
+  width: 60rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  /*padding: 2rem;*/
+  border-radius: 1rem;
+  
+
+@media (max-width: $mq) {
+  .form{
+   box-sizing: border-box;
+  }
+}
+}
+.formulario fieldset {
+  border: none;
+  background-image: linear-gradient(to right,$rojo 0%, $azulOscuro 100%);
+}
+.form legend {
+  padding-top: 8rem;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: $blanco;
+}
+
+.letraForm{
+  margin-bottom: 1rem;
+  font-size: 2rem;
+    .label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+}
+
+.input-text{
+  width: 90%;
+  border: none;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border-style: inherit;
+}
+
+.boton{
+  background-color: var(--gris);
+  color: var(--blanco);
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  width: 100%;
+  text-align: center;
+  border: none;
+    &:hover {
+    cursor: pointer;
+}
+}
+
+footer{
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+
+
+
+
+
+
+
 
 
 

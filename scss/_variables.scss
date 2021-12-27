@@ -10,8 +10,17 @@ $rojoClaro: #FFDCDC;
 $mq: 768px;
 
 
+@mixin mx1 {
+	padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
 
-
+$headings: (
+h1:5em - 1,
+h2:3em,
+h3:2em
+);
 
 
 
