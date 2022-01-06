@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "tools.css",
+	"sources": [
+		"../scss/tools.scss",
+		"../scss/_variables.scss",
+		"../scss/_main.scss"
+	],
+	"sourcesContent": [
+		"\r\n@import \"variables\";\r\n@import \"main\";\r\n",
+		"$bgColor: #FFA5AB;\r\n\r\n$colorLink: #F5E703 ;\r\n$colorNaranja: #FEB500;\r\n$cVerde:#C0FA08 ;\r\n$fondoTitulo: #A8005C ;\r\n$mq: 768px;\r\n\r\n$fondo: true;\r\n\r\n$headings: (\r\nh1:5em - 1,\r\nh2:3em,\r\nh3:2em\r\n);\r\n\r\n$estilos: (\r\n  color: #3673D9,\r\n  centro: center,\r\n  upper: uppercase,\r\n  tFuente: 20px,\r\n  1rem : 1rem\r\n);\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

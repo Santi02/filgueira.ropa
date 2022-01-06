@@ -1,0 +1,26 @@
+
+$blanco: #ffffff;
+$oscuro: #031042;
+$gris: #757575;
+$grisClaro: #dfe9f3;
+$azulOscuro: #02255B;
+$azulClaro: #C5E4FF ;
+$rojo: #BD0519;
+$rojoClaro: #FFDCDC;
+$mq: 768px;
+
+
+@mixin mx1 {
+	padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+$headings: (
+h1:5em - 1,
+h2:3em,
+h3:2em
+);
+
+
+
